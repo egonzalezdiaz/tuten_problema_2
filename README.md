@@ -13,5 +13,5 @@ Resolución de ejercicio numero 2
   Descargar repositorio, luego en la raiz del proyecto, ejecutar en la consola de comandos : *gradle bootRun*
 
 ## Utilización
-  Simplemente ejecutar en el navegador la url : *http://localhost/utc?hora=12:23:10&timezone=-4*
+  Simplemente ejecutar en el navegador la url : *http://localhost:3050/utc?hora=12:23:10&timezone=-4*
   Donde hora es la hora que se desea convertir y timezone el cambio de UTC que se requiere (acepta -12 hasta +12).
