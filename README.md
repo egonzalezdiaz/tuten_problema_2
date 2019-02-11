@@ -14,4 +14,4 @@ Resolución de ejercicio numero 2
 
 ## Utilización
   Simplemente ejecutar en el navegador la url : *http://localhost/utc?hora=12:23:10&timezone=-4*
-  Donde hora es la hora que se desea convertir y timezone el cambio que se requiere (acepta -12 hasta +12).
+  Donde hora es la hora que se desea convertir y timezone el cambio de UTC que se requiere (acepta -12 hasta +12).
