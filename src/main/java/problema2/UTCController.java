@@ -16,7 +16,7 @@ public class UTCController {
     public Map<String,Map<String,String>>   obtener_utc(
         @RequestParam(value="hora") String hora,
         @RequestParam(value="timezone") String timezone,
-        HttpServletResponse  response)){
+        HttpServletResponse  response){
 
        //expresión regular para validar hora (formato NN:NN:NN)
        Pattern patron = Pattern.compile("(\\d{1,2}):(\\d{1,2}):(\\d{1,2})");
