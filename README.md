@@ -18,3 +18,6 @@ Resolución de ejercicio numero 2
   La respuesta es un JSON con la estructura requerida en el problema.  Asumí que "timezone" debía tener "utc" + la zona horaria que se requerió convertir, por tanto el resultado para la url de ejemplo será:  *{"response":{"tipo":"utc +4","hora":"16:23:10"}}*
   
   El puerto del servidor puede ser cambiado en *src/main/resources/application.properties*.
+
+## Cliente
+  Se adjunta un cliente desarrollado solo con jquery, el cual mediante dos campos realiza la consulta al servidor y despliega la respuesta en un alert.
