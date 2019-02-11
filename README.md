@@ -7,8 +7,7 @@ Resolución de ejercicio numero 2
  
 ## Tecnologías utilizadas
 ### Spring MVC 
-   Con este framework se facilita mantener servicios web.  Inicialmente pensé en utilizar el API HttpServer, pero eso significaba horas
-   de desarrollo adicionales.
+   Con este framework se facilita el desarrollo de servicios web.  Inicialmente pensé en utilizar el API HttpServer, pero eso significaba horas  de desarrollo adicionales.
    
 ## Instalación 
   Descargar repositorio, luego en la raiz del proyecto, ejecutar en la consola de comandos : *gradle bootRun*
