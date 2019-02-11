@@ -1,0 +1,35 @@
+<html>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  
+  <script>
+    function convertir(){
+      $.ajax({
+        url: "http://localhost:3050/utc",
+        data : {
+          "hora" : $("#hora").val(),
+          "timezone"  : $("#utc").val()
+        }
+      }).done(function(respuesta) {
+        alert("Resultado : " + respuesta["response"]["hora"] + " " +respuesta["response"]["tipo"]);
+      });
+    }
+  </script>
+  
+  <body>
+    <h2>Conversor de UTC</h2>
+      <table>
+        <tr>
+          <td>Hora :</td><td><input id="hora"></td>
+          <td>UTC :</td><td><input id="utc"></td>
+        </tr>
+      </table>
+    <button onclick="convertir()">Convertir</button>
+    <div id="resultado">
+    
+    </div>
+  </body>
+</html>
