@@ -19,5 +19,5 @@ Resolución de ejercicio numero 2
   
   El puerto del servidor puede ser cambiado en *src/main/resources/application.properties*.
 
-## Cliente
+## Cliente (cliente.html)
   Se adjunta un cliente desarrollado solo con jquery, el cual mediante dos campos realiza la consulta al servidor y despliega la respuesta en un alert.
