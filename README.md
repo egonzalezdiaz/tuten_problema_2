@@ -10,7 +10,7 @@ Resolución de ejercicio numero 2
    Con este framework se facilita mantener servicios web.  Inicialmente pensé en utilizar el API HttpServer, pero eso significaba horas
    de desarrollo adicionales.
    
-##Instalación
+##Instalación 
   Descargar repositorio, luego en la raiz del proyecto, ejecutar en la consola de comandos : *gradle bootRun*
 
 ##Utilización
